@@ -1,0 +1,99 @@
+/* =Reveal.js
+-------------------------------------------------------------- */
+p { line-height: 1.5em;}
+
+body.reveal {
+    text-align: center;
+    height: auto;
+    width: auto;
+}
+
+.reveal h12, .branding h1 {
+    font-size: 2em;
+    padding-bottom: .5em;
+    line-height: 1em;
+}
+
+.reveal h2 {
+    line-height: 1.5em;
+}
+
+.reveal ul li {
+    padding: 2px;
+    line-height: 1.5em;
+}
+
+.reveal section img {
+    background: transparent;
+    border: none;
+}
+
+.reveal section img {
+	box-shadow: none;
+}
+
+/* =Misc
+-------------------------------------------------------------- */
+.alignleft {
+    display: inline !important;
+    float: left !important;
+    margin-right: 1.5em !important;
+}
+
+.alignright {
+    display: inline !important;
+    float: right !important;
+    margin-left: 1.5em !important;
+}
+
+.aligncenter {
+    clear: both !important;
+    display: block !important;
+    margin: 0 auto !important;
+}
+
+body.admin-bar .reveal {
+    top: -28px;
+}
+.taxonomy-presentation.admin-bar .reveal {
+    top: 0px;
+}
+
+body.mceContentBody.reveal {
+	/*
+	margin: 0px auto;
+	border: 0px solid red;
+	display: block;
+	min-height: 2em;
+	padding: 60px 0;
+	*/
+	max-width: 1024px;
+	zoom: 0.6;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover !important;
+
+
+position: relative;
+margin: 0 auto;
+
+
+/*
+position: absolute;
+top: 50%;
+*/
+/*
+height: 10em;
+margin-top: -5em;
+*/
+
+}
+
+body.mceContentBody.reveal:before {
+    content: ' ';
+    display: block;
+	top: 50%;
+	position: absolute;
+    text-align: center;
+    border: 0px solid red;
+}

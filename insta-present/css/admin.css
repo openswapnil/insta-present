@@ -1,0 +1,271 @@
+/* Hide the things on the taxonomy screen */
+
+.ui-dialog-buttonpane {
+    position: fixed;
+    top: 32px;
+    left: 38px;
+    z-index: 99;
+}
+
+.form-field {
+    display: none;
+}
+
+.form-field.form-required {
+    display: hidden;
+}
+
+#edittag .submit {
+    display: none;
+}
+
+.clearfix {
+    clear: both;
+}
+
+/* Ajax Spinner */
+.spinner {
+    display: inline-block;
+    float: none;
+    padding-left: 2em;
+}
+
+#container .widget.ui-sortable-helper {
+	width: 180px !important;
+}
+
+/* Slide Widgets */
+.widget-inside {
+    text-align: center;
+    padding: 1px 15px 15px 15px;
+}
+
+.widget-control-edit,
+.widget-control-remove,
+.widget-control-view {
+    display: inline;
+    padding: 0;
+    line-height: 26px;
+    background: white;
+    color: #0074a2;
+    border: 0;
+}
+
+.widget-control-separator {
+    padding: 0 0.25em;
+}
+
+.widget-control-actions div.alignleft { /* lines up slide links */
+    margin-top: 8px;
+}
+
+/* Columns */
+.column {
+    width: /*285*/200px;
+    float: left;
+    padding-bottom: 10px;
+    margin: 5px;
+}
+
+.column-handle {
+    margin: 0 1em 0.5em 0;
+    overflow: hidden;
+    min-height: 24px;
+    background: #ddd;
+    color: #333;
+    cursor: move;
+}
+
+.portlet {
+    margin: 0 1em 0.5em 0;
+    overflow: hidden;
+    min-height: 20px;
+    /*
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    */
+}
+
+.portlet-header {
+    margin: 0.3em;
+    padding-bottom: 4px;
+    padding-left: 0.2em;
+    overflow: hidden;
+}
+
+.portlet-header .ui-icon {
+    float: right;
+}
+
+.portlet-content, .portlet-edit {
+    padding: 0.4em;
+    overflow: hidden;
+}
+
+.portlet a.widget-action {
+    text-decoration: none;
+}
+
+.ui-sortable-placeholder {
+    border: 1px dotted black;
+    visibility: visible !important;
+    min-height: 3em;
+}
+
+.ui-sortable-placeholder * {
+    visibility: hidden;
+}
+
+#outer-container {
+    width: auto;
+    /*min-height: 300px;*/
+    overflow: scroll;
+    border: 1px dashed #ccc;
+    background: #fff;
+
+
+position: fixed;
+right: 20px;
+left: 180px;
+top: 150px;
+bottom: 40px;
+
+
+
+
+
+
+}
+
+#container {
+    min-width: 1200px;
+ 	/*width:auto;*/
+    padding: 1em;
+    background: inherit;
+    height: 100%;
+    /*min-height: 400px;*/
+    border: 0px solid black;
+}
+
+#container .column > .widget-top {
+    margin: 0 1em 0.5em 0;
+}
+
+#container .column > .widget-top > .widget-title {
+    cursor: move;
+    /*
+    border: 1px solid #aaa;
+    background: #ddd;
+    */
+}
+
+/* Allows for empty columns to accept new slides */
+#container .column-inner.ui-sortable {
+    min-height: 3em;
+}
+
+.action-buttons a {
+    text-decoration: none;
+}
+
+/* jQuery UI Dialog */
+.ui-widget-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.9;
+    z-index: 119900 !important;
+}
+
+#dialog{
+	/*background: lime;*/
+	padding: 0px;
+}
+.ui-front{
+
+}
+.ui-dialog {
+	background: whitesmoke;
+	position: fixed !important;
+	padding: 30px !important;
+	width: auto !important;
+	top: 30px !important;
+	bottom: 30px;
+	left: 30px !important;
+	right: 30px !important;
+	display: block;
+	z-index: 120000 !important;
+}
+
+.ui-dialog .ui-dialog-titlebar {
+    display: none;
+}
+
+.ui-dialog .ui-dialog-content {
+	position: static !important;
+	padding: 30px;
+}
+
+.ui-dialog-buttonpane {
+	position: fixed;
+	left: 44px;
+	top: 22px;
+}
+
+.mp6 .ui-dialog-buttonpane{
+	left: 35px;
+	top: 24px;
+}
+
+.mp6 .modal-inner-left{
+	left: 30px;
+	top: 30px;
+	bottom: 30px;
+}
+#customize-controls {
+	position: fixed;
+	width: 300px;
+	height: auto;
+	border: 0px solid red;
+	top: 30px;
+	height: auto;
+	bottom: 30px;
+	left: 30px;
+
+}
+.mp6 #customize-controls{
+	bottom: 30px;
+	left: 30px;
+}
+.modal-inner-left{
+	width: 300px;
+	position: fixed;
+	left: 30px;
+	bottom: 30px;
+	border: 0px solid red;
+	top: 30px;
+	box-shadow: -5px 0 4px -4px rgba(0,0,0,.1) inset;
+	border-right: 1px solid rgba(0,0,0,.2);
+}
+.modal-inner-right{
+	/*height: 100%;*/
+	border: 0px solid lime;
+	display: block;
+	position: fixed;
+	left: 340px;
+	bottom: 40px;
+	top: 40px;
+	right: 40px;
+}
+.media-modal-close {
+	display: none;
+	top: -10px !important;
+	right: -15px !important;
+}
+.mp6 .media-modal-close{
+	top: -18px !important;
+	right: -22px !important;
+}
