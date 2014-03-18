@@ -1,8 +1,7 @@
-Insta-present - beta
+Insta-present
 =================
-* Contributors: stevenkword
-* Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6T4UQQXTXLKVW
-* Tags: present, presentation, slide, slides, reveal.js, Insta-present, WordCamp, powerpoint, slidedeck
+* Contributors: Swapnil V. Patil
+* Tags: present, presentation, slide, slides, reveal.js, Insta-present, powerpoint, slidedeck
 * Requires at least: 3.6
 * Tested up to: 3.8.1
 * Stable tag: trunk
@@ -11,7 +10,7 @@ Insta-present - beta
 
 ## Description ##
 
-Create interactive slide presentations, the WordPress way.
+Enables the user to create presentations in WordPress.
 
 Presentation layer powered reveal.js by Hakim El Hattab (http://hakim.se).
 
@@ -21,35 +20,3 @@ Demo coming soon to http://wpoets.com. Currently works best with Chrome & Safari
 1. Upload "/Insta-present" to the "/wp-content/plugins/" directory.
 2. Activate the plugin through the "Plugins" menu in WordPress.
 
-## Changelog ##
-= 0.9.7 =
-* ADD SLUGS TO IDS IN THE DESCRIPTION FIELD
-* When adding a new column, add it one column after the active column
-* Make the placeholders for the columns larger than the widget placeholders
-* Fix column backfilling when empty columns are present
-* Add ability to highlight slides to target slide removal and insertions
-* Resolve loading modal customize background on 2nd load after background image removal
-* Have a template for displaying slides that are not found in a presentation
-
-= 0.9.6 =
-* Supports the ability to overwrite plugin template with theme templates
-* JS script inclusion audit
-* Adds shortcode for embedding WP Present into posts
-* Updates donate buttons and links
-* Tabifies the settings page
-* More informative AJAX spinners
-* Adds Templates for individual slides
-* Enqueues Dashicons always
-* Adds taxonomy bridge for storing additional taxonomy information in custom post types
-* Updates admin menus
-* Fixes color saving on Publish in modal customizer
-
-= 0.9.5 =
-* Emergency patches to fix support in preparation for WordPress 3.8
-
-= 0.9.4 =
-* I did things
-
-## Upgrade Notice ##
-= 0.9 =
-* Pre release
